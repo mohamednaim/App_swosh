@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomVC: UIViewController {
 
+    @IBOutlet weak var swoosh: UIImageView!
+    @IBOutlet weak var bglmg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+ 
     }
-
+    @IBAction func unwindFromSkillVC(unwindSegue:UIStoryboardSegue){
+        
+    }
 
 }
 
